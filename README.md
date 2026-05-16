@@ -84,18 +84,19 @@ Generates:
 
 ```text
 VerifyAI/
-├─ app.py                         # Streamlit UI, orchestration display, report rendering
-├─ agent.py                       # LangGraph/Gemini multi-agent verification pipeline
-├─ database.py                    # SQLite init/log/history helpers
-├─ requirements.txt               # Python dependencies
-├─ assessments.db                 # Local runtime database/history
-├─ agents/
-│  ├─ __init__.py
-│  └─ repository_agent.py         # Repository intelligence agent
-├─ services/
-│  ├─ __init__.py
-│  └─ repository_service.py       # GitHub API + repo artifact detection
-└─ __pycache__/                   # Generated Python cache files
+├── __pycache__/                 # Cached Python bytecode files (automatically generated)
+├── agents/                      # Specialized agent configurations and logic
+├── assets/
+│   └── screenshots/             # UI screenshots and visual assets for documentation
+├── services/                    # Underlying business logic and auxiliary modules
+├── .gitignore                   # Specifies files and folders for Git to ignore
+├── LICENSE                      # Project open-source license
+├── README.md                    # Core project documentation and overview
+├── agent.py                     # Main orchestration script for your AI agents
+├── app.py                       # Core entry point for your Streamlit UI surface
+├── assessments.db               # Local SQLite database storing system records
+├── database.py                  # Database connection handling and SQL operations
+└── requirements.txt             # Project dependencies and package versions
 ```
 
 ---
@@ -211,18 +212,18 @@ VerifyAI was built to help researchers, reviewers, students, and engineers quick
 
 # 📸 Screenshots
 
-![Dashboard](assets/screenshots/Image1.png)
-![Agents](assets/screenshots/Image2.png)
-![Repository Analysis](assets/screenshots/Image3.png)
-![Reviewer](assets/screenshots/Image4.png)
-![Trust Score](assets/screenshots/Image5.png)
-![Dashboard](assets/screenshots/Image6.png)
-![Agents](assets/screenshots/Image7.png)
-![Repository Analysis](assets/screenshots/Image8.png)
-![Reviewer](assets/screenshots/Image8.png)
-![Trust Score](assets/screenshots/Image10.png)
-![Reviewer](assets/screenshots/Image11.png)
-![Trust Score](assets/screenshots/Image12.png)
+![Before Uploading Research Paper](assets/screenshots/Image1.png)
+![Agent-Tool Coordination Flow](assets/screenshots/Image2.png)
+![Agent-Tool Coordination Flow 2](assets/screenshots/Image3.png)
+![Agent Execution and Research Paper Summary](assets/screenshots/Image7.png)
+![Research DNA Fingerprint and Repository Strengths](assets/screenshots/Image4.png)
+![Repository Intelligence Findings- Detected Artifacts and Absent Signals](assets/screenshots/Image8.png)
+![Reproducibility Signals — Positive and Attention Areas, Repository Structure and Structural Reproducibility Assessment](assets/screenshots/Image9.png)
+![Evidence-Based Verification and Conceptual Plausibility Analysis](assets/screenshots/Image10.png)
+![Dynamic Scientific Trust Trajectory](assets/screenshots/Image5.png)
+![Peer Review Board Simulation](assets/screenshots/Image11.png)
+![Expert Follow-Up Questions and Final Audit Conclusion](assets/screenshots/Image12.png)
+![Community Trust Signals and Scientific Confidence Interpretation](assets/screenshots/Image6.png)
 
 ---
 
