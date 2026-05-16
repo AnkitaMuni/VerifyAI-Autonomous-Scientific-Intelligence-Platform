@@ -84,18 +84,18 @@ Generates:
 
 ```text
 VerifyAI/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── LICENSE
-├── .gitignore
-│
-├── agents/
-├── utils/
-├── styles/
-├── assets/
-└── data/
+├─ app.py                         # Streamlit UI, orchestration display, report rendering
+├─ agent.py                       # LangGraph/Gemini multi-agent verification pipeline
+├─ database.py                    # SQLite init/log/history helpers
+├─ requirements.txt               # Python dependencies
+├─ assessments.db                 # Local runtime database/history
+├─ agents/
+│  ├─ __init__.py
+│  └─ repository_agent.py         # Repository intelligence agent
+├─ services/
+│  ├─ __init__.py
+│  └─ repository_service.py       # GitHub API + repo artifact detection
+└─ __pycache__/                   # Generated Python cache files
 ```
 
 ---
