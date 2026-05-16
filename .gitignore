@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.env
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Mac
+.DS_Store
+
+# Logs
+*.log
+
+# SQLite
+*.sqlite3
+*.db
+
+# Environment Variables
+.env.local
+
+# Temporary Files
+tmp/
+temp/
+
+# Build Files
+build/
+dist/
+
+# Python Packaging
+*.egg-info/
+
+# Cache
+.cache/
+
+# API Keys
+secrets.json
+credentials.json
+
+# Misc
+Thumbs.db
