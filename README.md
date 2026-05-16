@@ -1,10 +1,22 @@
 # VerifyAI
 
+![Python](https://img.shields.io/badge/Python-3.11-blue)
+![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
+![Gemini](https://img.shields.io/badge/LLM-Gemini-orange)
+![GitHub API](https://img.shields.io/badge/API-GitHub-black)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 # Autonomous Scientific Auditing & Intelligence Platform
 
 VerifyAI is an AI-powered multi-agent platform that audits research papers, repositories, reproducibility claims, and scientific transparency signals using autonomous reasoning agents and repository intelligence workflows.
 
 The system combines paper analysis, repository inspection, plausibility verification, reviewer simulation, and scientific trust scoring into a unified scientific auditing platform.
+
+---
+
+# 🎥 Demo Video
+
+[Watch Demo Video](PASTE_YOUR_YOUTUBE_LINK_HERE)
 
 ---
 
