@@ -19,7 +19,7 @@ The system combines paper analysis, repository inspection, plausibility verifica
 
 # 🎥 Demo Video
 
-[Watch Demo Video](PASTE_YOUR_YOUTUBE_LINK_HERE)
+[Watch Demo Video](https://www.youtube.com/watch?v=T1oCpx5x5KQ)
 
 ---
 
@@ -134,7 +134,7 @@ pip install -r requirements.txt
 ## Run Application
 
 ```bash
-streamlit run app.py
+python -m streamlit run app.py
 ```
 
 ---
