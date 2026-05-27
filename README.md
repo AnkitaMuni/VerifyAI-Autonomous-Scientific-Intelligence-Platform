@@ -17,9 +17,11 @@ The system combines paper analysis, repository inspection, plausibility verifica
 
 ---
 
-# 🎥 Demo Video
+# 🎥 Demo Video and Link
 
 [Watch Demo Video](https://www.youtube.com/watch?v=T1oCpx5x5KQ)
+[Link](https://verifyai-autonomous-scientific-intelligence-platform-4rfeqf7wa.streamlit.app/)
+
 
 ---
 
